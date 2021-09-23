@@ -1,0 +1,161 @@
+<html>
+
+<head>
+
+
+    <style type="text/css">
+        .navbar {
+            height: 75px;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            padding-top: 20px;
+        }
+        
+        .navbar a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #f1caa5;
+            display: block;
+        }
+        
+        .navbar a::hover {
+            color: #96ac64;
+        }
+        
+        .main {
+            margin-left: 160px;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <title>{% block title %} Employee Workload Schedule Manangement {% endblock %}
+    </title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="/home2">Home</a>
+        <a href="/emp"> Employee Master</a>
+        <a href="/machine">Machine Master</a>
+        <a href="/mpp"> Monthly Production Plan</a>
+        <a href="/month"> Month Master</a>
+        <a href="/logoutUser">Sign Out</a>
+
+
+        <form class="d-flex">
+            <br>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <h1> </h1>
+            <button class="btn btn-outline-info" type="submit">Search</button>
+        </form>
+    </div>
+    <!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Spicer India</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/home2">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/home2">Summary</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Production Section
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/emp">Employee Master</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/machine">Machine Master</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/mpp">Monthly Production Plan</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/month">Month Master</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav> -->
+
+
+
+
+
+
+    <div id="content" , name="content"></div>
+    {% block content %} {% endblock %}
+</body>
+
+<!-- 
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" style="background-color: 252324;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/home2">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Tourist Sites
+        </a>
+                    <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/emp">Employee Master</a></li>
+                        <li><a class="dropdown-item" href="/machine">Machine Master</a></li>
+                        <li><a class="dropdown-item" href="/mpp">Monthly Production Plan</a></li>
+                        <li><a class="dropdown-item" href="/month">Month Master</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-person" viewBox="0 0 20 20">
+            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+                    </a>
+                    <ul class="dropdown-menu bg-white text-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/home">Profile
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+              <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+            </svg>
+          </a></li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="/home">Logout</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                </li>
+            </ul>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+-->
+
+</html>
