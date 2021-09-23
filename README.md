@@ -48,3 +48,5 @@ Data pre-processing phase consists of process transforming the raw data to the r
 
 
 ## Scheduling Algorithm design
+
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/newflowchart.JPG?raw=true)
