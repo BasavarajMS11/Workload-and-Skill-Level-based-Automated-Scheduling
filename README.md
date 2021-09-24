@@ -56,8 +56,71 @@ Data pre-processing phase consists of process transforming the raw data to the r
 ![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/home1.JPG?raw=true)
 <br/>
 
+### Home - Sign In
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/signin.JPG?raw=true)
+<br/>
+
 ### Home - Once logged in
 ![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/home2.JPG?raw=true)
 <br/>
 
+### Employee Master
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/empmaster.JPG?raw=true)
+<br/>
 
+### Add Employee
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/addemp.JPG?raw=true)
+<br/>
+
+### Edit Employee
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/editemp.JPG?raw=true)
+<br/>
+
+### Machine Master
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/machinemaster.JPG?raw=true)
+<br/>
+
+
+### Month Master
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/monthmaster.JPG?raw=true)
+<br/>
+
+### Monthly Production Plan
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/mpphome.JPG?raw=true)
+<br/>
+
+### Previous Monthly Production Plan
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/previousplan.JPG?raw=true)
+<br/>
+
+### Upload Monthly Production Plan
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/uploadplan.JPG?raw=true)
+<br/>
+
+### File Upload Monthly Production Plan
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/uploadingfile.JPG?raw=true)
+<br/>
+
+### Monthly Production Plan - Data
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/marchver1plan.JPG?raw=true)
+<br/>
+
+### Manpower and Shift Estimation for MPP Data
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/manpowerandshiftsmarch.JPG?raw=true)
+<br/>
+
+### Schedule Summary for MPP
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/schedulesummary.JPG?raw=true)
+<br/>
+
+### Cell Wise Schedule - TS
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/workloadscheduleTS.JPG?raw=true)
+<br/>
+
+### Cell Wise Schedule - UJ
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/workloadscheduleUJ.JPG?raw=true)
+<br/>
+
+### Register New Admin
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/registeradmin.JPG?raw=true)
+<br/>
