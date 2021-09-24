@@ -14,7 +14,9 @@ The proposed system solution of workload and skill level based scheduling consis
 3. Testing (WebDev)
 4. Deploment (PaaS-Heroku)
 
-## Requirement Analysis
+## 1.Requirement Analysis and Data Pre-processing
+
+## Requirement Analysis 
 The requirements are considered from the perspective of authorized user. Authorized user is the dispatcher who schedules the work load to the employees based on
 constraints and has all the privileges to manipulate the data. Whereas employee can only view the data. In further sections we discuss the functional and non-functional requirements indicating client's expectations.
 Link: https://drive.google.com/file/d/1rHB682Rx6eFy-pqZHnEF5t0rv9K_z9p-/view?usp=sharing
@@ -34,7 +36,7 @@ Data pre-processing phase consists of process transforming the raw data to the r
 <br/>
 
 
-
+## 2.Design
 ## Design Principles for UI design
 1. MVC - Model View Controller architecture diagram
 
@@ -124,3 +126,10 @@ Data pre-processing phase consists of process transforming the raw data to the r
 ### Register New Admin
 ![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/registeradmin.JPG?raw=true)
 <br/>
+
+## 3. Testing (WebDev)
+![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/performance.JPG?raw=true)
+<br/>
+
+## 4. Deployment (PaaS- Heroku)
+The application developed is hosted on the cloud to make it available globally all the time.
