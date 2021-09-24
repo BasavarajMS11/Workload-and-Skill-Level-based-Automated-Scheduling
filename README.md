@@ -133,3 +133,5 @@ Data pre-processing phase consists of process transforming the raw data to the r
 
 ## 4. Deployment (PaaS- Heroku)
 The application developed is hosted on the cloud to make it available globally all the time.
+
+## Note: If you find this repo helpful dont't forget to give a star.
