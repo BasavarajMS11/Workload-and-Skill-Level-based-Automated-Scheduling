@@ -3,7 +3,7 @@ A web application for scheduling of employees of manufacturing industries based 
 
 
 ## Problem Statement: 
-To develop an application for automated scheduling of manpower based on the skill matrix and load of the machine.
+To develop an application for automated scheduling of manpower based on the skill matrix and load of the machine .
 
 ## High Level System Solution
 The proposed system solution of workload and skill level based scheduling consists of 4 modules in design.
