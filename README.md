@@ -12,7 +12,7 @@ The proposed system solution of workload and skill level based scheduling consis
 <br/>
 1. Requirement Analysis and Data Pre-processing
 2. Design (UI & Scheduling Algorithm)
-3. Testing (WebDev)
+3. Testing (WebDev) 
 4. Deploment (PaaS-Heroku)
 
 ## 1.Requirement Analysis and Data Pre-processing
