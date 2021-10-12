@@ -137,4 +137,4 @@ The application developed is hosted on the cloud to make it available globally a
 
 <br/>
 
-### If you find this repo helpful dont't forget to give a star.
+### If you find this repo helpful dont't forget to give a star 🌟.
