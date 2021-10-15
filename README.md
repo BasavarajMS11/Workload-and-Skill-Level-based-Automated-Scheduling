@@ -2,7 +2,7 @@
 A web application for scheduling of employees of manufacturing industries based on skill level of employee and criticality index of machine for monthly production plan.
 
 
-## Problem Statement: 
+## Problem Statement:  
 To develop an application for automated scheduling of manpower based on the skill matrix and load of the machine .
 
 ## High Level System Solution
