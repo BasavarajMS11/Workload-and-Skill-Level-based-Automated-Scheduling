@@ -11,7 +11,7 @@ The proposed system solution of workload and skill level based scheduling consis
 ![alt text](https://github.com/BasavarajMS11/Workload-and-Skill-Level-based-Automated-Scheduling/blob/master/Images/systemmodel.JPG?raw=true)
 <br/>
 1. Requirement Analysis and Data Pre-processing
-2. Design (UI & Scheduling Algorithm)
+2. Design (UI & Scheduling Algorithm) 
 3. Testing (WebDev) 
 4. Deploment (PaaS-Heroku)
 
